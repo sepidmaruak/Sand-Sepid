@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اطلاعات کاری</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(45deg, #4338ca, #6d28d9);
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(45deg, #059669, #0d9488);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background: linear-gradient(45deg, #047857, #0f766e);
+            transform: translateY(-2px);
+        }
+        
+        .btn-contact {
+            background: linear-gradient(45deg, #dc2626, #ea580c);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-contact:hover {
+            background: linear-gradient(45deg, #b91c1c, #c2410c);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="min-h-screen gradient-bg">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <div class="w-32 h-32 mx-auto mb-6 bg-white rounded-full flex items-center justify-center shadow-lg">
+                <svg class="w-16 h-16 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                </svg>
+            </div>
+            <h1 class="text-4xl font-bold text-white mb-4">ماسه شویی سپید مروک شرقی</h1>
+            <p class="text-xl text-white opacity-90">تامین کننده شن و ماسه با بالاترین کیفیت</p>
+        </div>
+
+        <!-- Main Card -->
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden card-hover">
+            <div class="p-8">
+                <!-- About Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                        <svg class="w-6 h-6 ml-2 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        درباره من
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        ماسه شویی سپید مروک شرقی با بیش از 10 سال فعالیت در حوزه ساخت و ساز امروزه در تلاش است که بهترین شن و ماسه را با بهترین کیفیت در اختیار هم شهریان عزیز قرار دهد.
+                    </p>
+                </div>
+
+                <!-- Services Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                        <svg class="w-6 h-6 ml-2 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
+                        </svg>
+                        خدمات ما
+                    </h2>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-gradient-to-br from-blue-50 to-indigo-100 p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-semibold text-gray-800 mb-2">مشاوره تخصصی</h3>
+                            <p class="text-gray-600 text-sm">ارائه مشاوره حرفه‌ای در زمینه تخصص</p>
+                        </div>
+                        
+                        <div class="bg-gradient-to-br from-green-50 to-emerald-100 p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-emerald-600 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-semibold text-gray-800 mb-2">خدمات با بالاترین کیفیت</h3>
+                            <p class="text-gray-600 text-sm">ارائه شن و ماسه با بالاترین کیفیت و استاندارد</p>
+                        </div>
+                        
+                        <div class="bg-gradient-to-br from-purple-50 to-violet-100 p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-violet-600 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M19 7l-.867 12.142A2 2 0 0116.138 21H3.862a2 2 0 01-1.995-1.858L1 7m18 0l-2-4H5L3 7m16 0H3m9 4v6m-4-6v6m8-6v6"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-semibold text-gray-800 mb-2">تامین ماسه برای پروژه‌های بزرگ</h3>
+                            <p class="text-gray-600 text-sm">تامین ماسه برای پروژه‌های بزرگ با بالاترین کیفیت</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Working Hours Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                        <svg class="w-6 h-6 ml-2 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                        </svg>
+                        ساعات کاری
+                    </h2>
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-100 p-6 rounded-xl">
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-center">
+                                <thead>
+                                    <tr class="border-b-2 border-indigo-200">
+                                        <th class="py-3 px-4 font-semibold text-gray-800">روز</th>
+                                        <th class="py-3 px-4 font-semibold text-gray-800">ساعات کاری</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-gray-700">
+                                    <tr class="border-b border-indigo-100">
+                                        <td class="py-3 px-4 font-medium">شنبه</td>
+                                        <td class="py-3 px-4">7:00 - 17:00</td>
+                                    </tr>
+                                    <tr class="border-b border-indigo-100">
+                                        <td class="py-3 px-4 font-medium">یکشنبه</td>
+                                        <td class="py-3 px-4">7:00 - 17:00</td>
+                                    </tr>
+                                    <tr class="border-b border-indigo-100">
+                                        <td class="py-3 px-4 font-medium">دوشنبه</td>
+                                        <td class="py-3 px-4">7:00 - 17:00</td>
+                                    </tr>
+                                    <tr class="border-b border-indigo-100">
+                                        <td class="py-3 px-4 font-medium">سه‌شنبه</td>
+                                        <td class="py-3 px-4">7:00 - 17:00</td>
+                                    </tr>
+                                    <tr class="border-b border-indigo-100">
+                                        <td class="py-3 px-4 font-medium">چهارشنبه</td>
+                                        <td class="py-3 px-4">7:00 - 17:00</td>
+                                    </tr>
+                                    <tr class="border-b border-indigo-100">
+                                        <td class="py-3 px-4 font-medium">پنج‌شنبه</td>
+                                        <td class="py-3 px-4">7:00 - 17:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3 px-4 font-medium">جمعه</td>
+                                        <td class="py-3 px-4">7:00 - 17:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="border-t pt-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                        <svg class="w-6 h-6 ml-2 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                        </svg>
+                        تماس با ما
+                    </h2>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Contact Info -->
+                        <div class="space-y-4">
+                            <div class="flex items-center p-4 bg-gray-50 rounded-lg">
+                                <div class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center ml-4">
+                                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-800">شماره تماس</p>
+                                    <p class="text-gray-600" dir="ltr">09166687394</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center p-4 bg-gray-50 rounded-lg">
+                                <div class="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center ml-4">
+                                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-800">آدرس</p>
+                                    <p class="text-gray-600">لرستان دورود جاده دورود به مروک دو کیلومتر بالاتر از روستای دایی چی</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Action Buttons -->
+                        <div class="flex justify-center">
+                            <a href="tel:09166687394" class="btn-contact text-white px-8 py-4 rounded-xl font-semibold text-center shadow-lg">
+                                <svg class="w-5 h-5 inline ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                                </svg>
+                                تماس تلفنی
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9684820252bc8ffb',t:'MTc1NDA0MjYyOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
